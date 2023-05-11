@@ -1,0 +1,36 @@
+$color_text: rgb(255, 255, 255);
+$color_fond: rgba(255, 255, 255, 0.3);
+$align: center;
+$bgImage: "../imagenes/fondo.jpg";
+$property: "background";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: $align;
+    align-items: $align;
+    color: $color_text;
+}
+
+body {
+    font-family: 'Times New Roman', 'Roboto', sans-serif;
+    #{$property}-image:url('#{$bgImage}');
+    #{$property}-size: 100% 100%;
+}
+
+.Item1 {
+    box-shadow: 0 0 10px $color_fond;
+    transition: transform 0.3s ease-in-out;
+}
+.container {
+    nav {
+        .collapse {
+            a {
+                &:hover {
+                    color: green;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

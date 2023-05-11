@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: "Times New Roman", "Roboto", sans-serif;
+  background-image: url("../imagenes/fondo.jpg");
+  background-size: 100% 100%;
+}
+
+.Item1 {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container nav .collapse a:hover {
+  color: green;
+  cursor: pointer;
+}/*# sourceMappingURL=vista.css.map */

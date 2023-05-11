@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: "Times New Roman", "Roboto", sans-serif;
+  background-size: 100% 200%;
+  align-items: center;
+  text-align: center;
+  background-image: url("../imagenes/fondo.jpg");
+}
+
+.fondo {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease-in-out;
+}/*# sourceMappingURL=index.css.map */
